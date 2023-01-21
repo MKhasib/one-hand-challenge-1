@@ -1,0 +1,105 @@
+:root{
+    --clr-primary: #ff6b81;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.hero{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+nav {
+    position: absolute;
+    background-color: transparent;
+    height: 80px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    align-items: center;
+    color: wheat;
+}
+
+.navbar-logo{
+    /* margin-left: 8rem; */
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navbar-items{
+    padding-right: 10rem;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 15px;
+}
+
+
+
+.navbar-items li a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar-items li a:hover{
+    color: var(--clr-primary);
+}
+
+.hero h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    width: 60%;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hero-buttons_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    margin: 0 20px;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    background-color: transparent;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-primary{
+    width: 200px;
+    color: white;
+    border-color: var(--clr-primary);
+}
+
+.btn-primary:hover{
+    background-color: var(--clr-primary);
+}
