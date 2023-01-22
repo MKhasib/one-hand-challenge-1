@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@300;400;500;600;700;800&display=swap");
 
 :root {
+    --primary-button: #298788;
 }
+
 
 * {
   padding: 0px;
@@ -104,12 +106,12 @@ body {
 }
 
 .home__hero-section__buttons__primary {
-  background: #298788;
+  background: var(--primary-button);
   color: #fff;
 }
 
 .home__hero-section__buttons__secondary {
   background: transparent;
   color: #fff;
-  border: 2px solid #298788;
+  border: 2px solid var(--primary-button)
 }
