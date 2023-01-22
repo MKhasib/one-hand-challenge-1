@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+:root {
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", "Lato", "Courier New", Courier, monospace;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.main-navbar {
+  width: 1100px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 100px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  color: #fff;
+  background: transparent;
+}
+
+.main-navbar__logo {
+  text-transform: uppercase;
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.main-navbar__navmenu {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  color: #fff;
+}
+
+.main-navbar__navmenu__item {
+  margin-left: 30px;
+}
+
+.main-navbar__navmenu__item__link {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.home__hero-section {
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home__hero-section__title {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 70px;
+  letter-spacing: 3px;
+}
+
+.home__hero-section__subtitle {
+  margin-bottom: 30px;
+  font-family: "Lato";
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.home__hero-section__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato";
+}
+
+.button {
+  width: 200px;
+  padding: 15px;
+  border: none;
+  border-radius: 25px;
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+
+.home__hero-section__buttons__primary {
+  background: #298788;
+  color: #fff;
+}
+
+.home__hero-section__buttons__secondary {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #298788;
+}
