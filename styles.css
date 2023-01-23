@@ -1,0 +1,46 @@
+body {
+  background-image: url(/images/background-blur.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-size: 100% 400px;
+}
+
+a {
+  text-decoration: none;
+  padding: 5px;
+  font-weight: bold;
+  color: rgb(238, 223, 223);
+}
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+}
+
+.content {
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 999px;
+}
