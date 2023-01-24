@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: absolute;
+  z-index: 999;
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 299px;
+  max-width: 1200px;
+  width: 100%;
+  top: 200px;
+}
+
+.navigation a {
+  color: #cad0e2;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 30px;
+}
+
+.navigation a:hover {
+  color: #4c534c;
+}
+
+body {
+  background: url(/images/background-blur.jpg) no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 1200px 550px;
+}
+
+.logo {
+  color: #cad0e2;
+  display: grid;
+  font-size: 1.1em;
+  text-decoration: none;
+  position: absolute;
+  text-transform: uppercase;
+  top: 0;
+  left: -300px;
+}
+
+.logo:hover {
+  color: #4c534c;
+}
+
+.content {
+  display: grid;
+  color: white;
+  place-items: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.description {
+  font-size: 20px;
+}
+
+button {
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 999px;
+  margin-top: 30px;
+  border: 2px solid #4c534c;
+}
+
+button:hover {
+  background-color: #4c534c;
+}
