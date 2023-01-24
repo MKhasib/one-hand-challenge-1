@@ -5,15 +5,15 @@
 }
 
 header {
-  width: 100%;
-  position: fixed;
+  position: absolute;
   z-index: 999;
-  display: flex;
+  display: grid;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 200px;
-  max-width: 120000px; /* or whatever width you want */
+  padding: 0px 299px;
+  max-width: 1200px;
   width: 100%;
+  top: 200px;
 }
 
 .navigation a {
@@ -25,7 +25,7 @@ header {
 }
 
 .navigation a:hover {
-  color: #7a7e88;
+  color: #4c534c;
 }
 
 body {
@@ -42,19 +42,6 @@ body {
   background-size: 1200px 550px;
 }
 
-body .content {
-}
-
-/* nav {
-  display: flex;
-  position: absolute;
-  top: 0;
-  right: -550px;
-  padding: 10px;
-  width: 100%;
-  max-width: 700px;
-} */
-
 .logo {
   color: #cad0e2;
   display: grid;
@@ -63,17 +50,16 @@ body .content {
   position: absolute;
   text-transform: uppercase;
   top: 0;
-  left: 0;
-  padding: 10px;
+  left: -300px;
 }
 
 .logo:hover {
-  color: #7a7e88;
+  color: #4c534c;
 }
 
 .content {
   display: grid;
-  color: #cad0e2;
+  color: white;
   place-items: center;
   text-align: center;
 }
@@ -89,6 +75,7 @@ body .content {
 button {
   background-color: transparent;
   color: white;
+  font-weight: bold;
   padding: 15px 30px;
   text-align: center;
   font-size: 16px;
